@@ -12,6 +12,17 @@ body{
    
 
 }
+.azul{
+  width: 1440px;
+  height: 605px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+  margin-top: 60px;
+  border-left: 0px;
+  border-right: 0px;
+  
+
+}
 .header{
     text-align: center;
 }
@@ -105,6 +116,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 450px;
 }
 .titulo-03{
     color: #33A8DB;
@@ -206,4 +218,85 @@ body{
    background: #252525;
    /* Shadow Effect */
    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+.titulo-06{
+  color: #FFF;
+  text-shadow: 3px 2px 0px #33A8DB;
+ font-family: Raleway;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 900;
+ line-height: normal;
+ text-transform: uppercase;
+}
+.secao-03{
+  background-image: url("/assets/woman-code.png");
+  width: 1439px;
+ height: 960px;
+ flex-shrink: 0;
+ margin-top: 318px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding:140px;
+   
+}
+.titulo-06{
+  margin-right: 30px;
+}
+
+.azul-02{
+  width: 1440px;
+  height: 605px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+  margin-top: 60px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.container-04{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/professional-challenges.png");
+  width: 659px;
+ height: 429px;
+ margin:360px 218px 218px 300px;
+}
+.titulo-07{
+  color: #33A8DB;
+text-align: center;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6.08px;
+}
+.titulo-07{
+  margin-bottom: 460px;
+  margin-right: 360px;
+}
+.paragrafo-07{
+  width: 792px;
+  color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.paragrafo-rodape{
+  width: 1440px;
+height: 170px;
+flex-shrink: 0;
+margin-left: 340px;
+margin-right: 550px;
+text-transform: uppercase;
+}
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #33A8DB;
 }
